@@ -11,7 +11,7 @@ import {
   FireIcon
 } from "@heroicons/react/24/outline";
 import Confetti from "react-confetti";
-import { useWindowSize } from "react";
+import { useWindowSize } from "usehooks-ts";
 import html2canvas from 'html2canvas';
 
 const ConfettiComponent = () => {
